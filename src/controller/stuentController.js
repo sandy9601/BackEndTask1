@@ -12,7 +12,6 @@ const createStudent=async function(req,res){
             }
         }
     }
-
     const studentData=studentModel.create(data)
     return res.status(201).send({
         status:true,
